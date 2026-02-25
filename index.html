@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    
+    <h1>
+        Jogo da Velha
+    </h1>
+
+<!--cada div abaixo com - representa uma linha.-->
+<div>
+    <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div>
+    <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div>
+    <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div class="jogador">
+    <label>
+        Jogador:
+    </label>
+    <label id="jogador-selecionado">
+
+    </label>
+</div>
+
+<div class="vencedor">
+    <label>
+        Vencedor:
+    </label>
+    <label id="vencedor-selecionado">
+        
+    </label>
+</div>
+
+<div class="estatisticas">
+    <p>Jogos Jogados: <span id="contador-jogos">0</span></p>
+    <p>X Venceu: <span id="contador-x">0</span></p>
+    <p>O Venceu: <span id="contador-o">0</span></p>
+</div>
+
+<div>
+    <button onclick="reiniciar()"   class="reiniciar">
+        Reiniciar
+    </button>
+</div>
+
+    <script src="velha.js"></script>
+</body>
+
+
+
+
+</html>
