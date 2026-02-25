@@ -42,7 +42,7 @@ O esqueleto básico do jogo foi ensinado pelo professor, e eu fiz diversas alter
 
 ## Imagem do Jogo
 
-![Jogo da Velha](https://via.placeholder.com/500x300.png)
+![Jogo da Velha](preview.png)
 
 ## Licença
 
